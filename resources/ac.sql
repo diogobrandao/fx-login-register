@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS ac;
+CREATE DATABASE ac;
+USE ac;
+
+CREATE TABLE users (
+  username VARCHAR(32),
+  email VARCHAR(32) NOT NULL,
+  password VARCHAR(32) NOT NULL,
+  PRIMARY KEY(username)
+)
