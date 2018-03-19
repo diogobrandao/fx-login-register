@@ -5,7 +5,8 @@ import com.mysql.jdbc.PreparedStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
+//@Entity
+//@Table(name = "user")
 public class User {
 
     private String username;
